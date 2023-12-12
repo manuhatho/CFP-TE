@@ -77,13 +77,13 @@ header nav ul #color:hover {
    border-color: #1983bd;
     transition: 0.25s ease;
 }
-header nav ul li #inscription {
+header nav ul li #insp {
     color: #1983bd;
     transition: 0.25s ease;
     cursor: pointer;
     
 }
-header nav ul li #inscription:hover{
+header nav ul li #insp:hover{
     color: #759915;
     transition: 0.25s ease;
 }
@@ -584,7 +584,7 @@ height: fit-content;
 }
 .galery-container::after {
    content: '';
-   width: 350px;
+   width: 690px;
    height: 300px;
    display: block;
    
@@ -911,6 +911,9 @@ body.active{
     filter: blur(2px);
 }
 
+.inscription.active{
+    display: block;
+}
 .inspcrition{
     background-color: #000000;
     width: 100%;
@@ -925,7 +928,7 @@ body.active{
     right: 0;
     left: 0;
     scale: 0.8;
-    display : none;
+    /* display : none; */
 }
  .form {
     color: white;

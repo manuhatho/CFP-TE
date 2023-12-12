@@ -91,10 +91,10 @@ function crossBar(){
 crossBar()
 
 function crossBar2(){
-    const inscription = document.querySelector("inscription");
+   
     const bar2 = ducment.querySelector("bar2");
-    const body = ducment.querySelector("body");
-    const navbtn = document.getElementById("inscription"); 
+    
+    const navbtn = document.getElementById("insp"); 
     navbtn.addEventListener("click",function(){
         console.log('click');
         inscription.style.display = "block"
@@ -102,12 +102,17 @@ function crossBar2(){
 
     })
     bar2.addEventListener("click",function(){
-        inscription.style.display = "none"
+       
         body.classList.remove("active")
     })
 
 }
-crossBar2();
+const inscription = document.querySelector("form");
+// console.log(inscription);
+const navbtn = document.getElementById("insp"); 
+navbtn.addEventListener("click",function(){
+    console.log('click');
+    inscription.classList.toggle("active")
+    
 
-const navbtn = document.getElementById("inscription"); 
-console.log(navbtn);
+})
