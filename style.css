@@ -761,7 +761,7 @@ scale: 1.1;
     display: block;
    position: relative;
    z-index: 99;
-   bottom: 14px;
+    bottom: 4px;
     cursor: pointer;
 }
 
