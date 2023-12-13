@@ -47,7 +47,6 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: 19px;
-    padding: 10px 0;
     font-family: 'typo';
 
     
@@ -55,7 +54,7 @@ header {
     
 }
 header .logo img{
-    height: 100px;
+    height: 50px;
 }
 
 nav{
@@ -575,6 +574,13 @@ height: fit-content;
     margin: 0 auto;
     padding: 20px 10px;
 }
+.galery-container::after{
+    content:"";
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+
+}
 
 .galery{
     width: 100%;
@@ -602,7 +608,7 @@ height: fit-content;
 
 .filière{
  font-family: 'typo';
- padding: 10px 30px;
+ padding: 10px;
  border-radius: 40px;
  border: 2px solid #759915;
  margin-top: 10px !important;
