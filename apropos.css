@@ -212,6 +212,7 @@ header nav ul li a{
     text-transform: uppercase;
     max-width: 90%;
     margin: 0 auto;
+    padding-top: 140px;
    
       
 }
@@ -447,6 +448,7 @@ main h1{
     text-decoration: underline;
     color: #759915;
     margin-bottom: 40px;
+
     
 }
 

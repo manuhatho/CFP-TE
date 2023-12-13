@@ -219,6 +219,7 @@ header nav ul li a{
     text-transform: uppercase;
     max-width: 90%;
     margin: 0 auto;
+    padding-top: 140px;
    
       
 }
@@ -434,6 +435,8 @@ main h1{
     text-align: center;
     margin-top: 50px;
     font-size: 3rem;
+    color: #759915;
+    text-decoration: underline;
     
 }
 
@@ -448,6 +451,7 @@ main #contactFormulaire{
     font-family: 'typo';
     color: white;
     border-radius: 25px;
+    margin-bottom: 100px;
     
     
   
@@ -458,6 +462,7 @@ main #contactFormulaire{
     border-bottom: 2px solid;
     margin-bottom: 5px;
     padding-bottom: 5px;
+    
    
   
 
@@ -512,6 +517,7 @@ input[type="submit"]{
     background-color: #fff;
     color: #1983bd;
     transition: 0.25s ease;
+    border-radius: 5px;
 }
    
 /* ------------------------------------------------------------------------------------ */
