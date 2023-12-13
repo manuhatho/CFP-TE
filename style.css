@@ -956,13 +956,14 @@ form{
     border-radius:10px;
     font-family: 'typo';
     position: fixed;
-    top:-70px;
+    top:0;
     right: 0;
     left: 0;
-    scale: 0.8;
+    scale: 1;
     opacity:0;
     z-index: -1;
     transition:  0.25s;
+    box-shadow: 1px 1px 5px 5px #ffffff2f;
     /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
     
 }
