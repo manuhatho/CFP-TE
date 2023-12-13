@@ -212,6 +212,7 @@ header nav ul li a{
     text-transform: uppercase;
     max-width: 90%;
     margin: 0 auto;
+   
       
 }
 .hero-text h2 {
@@ -777,8 +778,8 @@ left: 0;
 right: 0;
 z-index: 99;
 margin: 0 auto;
-/* transition: 0.25s cubic-bezier(.17,.84,.44,1); */
-padding: 0 16px;
+transition: 0.25s cubic-bezier(.17,.84,.44,1);
+padding: 0 68px;
 
 }
 
