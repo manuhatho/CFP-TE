@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sect3{
+    background-color: yellow;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.galery-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.galery{
+    width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  margin: 20px;
+  
+}
+.img-format{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img-format img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+}

@@ -536,89 +536,80 @@ height: fit-content;
      align-items: center;
 }
 
-/* .section-3 {
-    padding-top: 30px;
-} */
-/* .section-3 h1 {
+
+.sect3 h1 {
     text-align: center;
     font-family: "work";
     letter-spacing: -3px;
     padding-top: 50px 20px;
-} */
-
-.section3 h1 {
-    color: #000000;
-    font-family: "work";
-    letter-spacing: -3px;
     text-transform: uppercase;
-    text-align: center;
-    margin: 50px 0;
-   width: 100%;
-   max-width: fit-content;
-   margin: 0 auto;
-   padding: 20px 0;
 }
 
-.section3{
-    margin-top: 20px;
-}
-.h1div {
+
+ .h1div {
     
     width: 100%;
     max-width: 200px;
     border: 1px solid #1983bd;
     margin: 0 auto;
-   
-}
-.section3 h1::after{}
 
-.galery-container {
+   
+} 
+
+.sect3{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.galery-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
 
-   
-}
-.galery-container::after {
-   content: '';
-   width: 690px;
-   height: 300px;
-   display: block;
-   
-}
-.img-format {
-   width: 100%;
-   max-width: 350px;
-   height: auto;
-   transition: 0.25s ease;
-    
-   
-    
-}
-.img-format img {
+.galery{
     width: 100%;
-   height: auto;
+  max-width: 350px;
+  height: auto;
+  object-fit: cover;
+  margin: 10px;
+  
+}
+.img-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.img-format img{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
     object-fit: cover;
-    padding: 15px;
-    border-radius: 30px;
-    transition: 0.25s ease;
+    border-radius: 20px;
    
 }
-.filière{
-    font-family: 'typo';
-    color: #1983bd;
-    border: 2px solid;
-    border-color: #759915;
-    padding: 15px 5px ;
-    margin: 5px;
-    border-radius: 50px;
-    transition: 0.25 ease;
-    cursor: pointer;
-}
 
+.filière{
+ font-family: 'typo';
+ padding: 10px 30px;
+ border-radius: 40px;
+ border: 2px solid #759915;
+ margin-top: 10px !important;
+
+
+
+}
 
 .filière:hover {
     transition: 0.25 ease;
