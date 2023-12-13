@@ -264,6 +264,96 @@ header nav ul li a{
 
 
 
+/* ----CONTACT------------------------------------------------------------------------------------ */
+
+main h1{
+    font-family: "typo";
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+    
+}
+
+
+main form {
+    width: 100%;
+    max-width: 800px;
+    scale: 0.9;
+    margin: 0 auto;
+    background-color: #1983bd;
+    padding: 30px 50px;
+    font-family: 'typo';
+    color: white;
+    border-radius: 25px;
+    
+    
+  
+}
+
+fieldset{
+    border: none;
+    border-bottom: 2px solid;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+   
+  
+
+}
+fieldset:last-of-type{
+    border-bottom: none;
+}
+label {
+    display:block;
+    margin: 10px 0;
+    width: 100%;
+    font-weight: bold;
+   
+    border-radius:  5px;
+}
+input {
+    width: 100%;
+    margin-top: 10px!important;
+    border-radius: 3px;
+    border: none;
+    padding: 10px !important;
+    
+}
+
+
+
+textarea{
+    width: 100%;
+     margin-top: 20px!important; 
+    border-radius:  3px;
+    border: none; 
+    padding: 10px !important;
+}
+
+
+
+input[type="submit"]{
+     background-color: #759915;
+    border: none;
+    color: white;
+    width: 100%;
+   max-width:200px;
+   display: block;
+   margin: 0 auto;
+   cursor: pointer;
+   padding: 20px 0;
+   transition: 0.25s ease;
+   
+}
+
+#btn:hover {
+    background-color: #fff;
+    color: #1983bd;
+    transition: 0.25s ease;
+}
+   
+
+
+
 .fa-brands {
     color: #759915;
     scale: 1.5;
@@ -570,6 +660,12 @@ to{
       
       
     }
+    main h1 {
+        font-size: 2rem !important;
+    }
+    form{
+        padding: 30px 10px !important;
+    }
 }
 
 @media (max-width:395px){
@@ -635,106 +731,11 @@ to{
 
 
 @media (max-width:331px){
-    .hero-text{
-        display: flex;
-        flex-direction: column;
-        justify-content: center ;
-        align-items: center  ;
-        position : relative; 
-       right: 30px;
-       padding: 30px;
-    }
-    .hero-text h2{
-
-        position : relative; 
-        right: -40px;
-        bottom: 40px ;
-    }
-    .hero-text h1{
-        position : relative; 
-        bottom: 50px ;
-    }
-}
-
-
-/* ----CONTACT------------------------------------------------------------------------------------ */
-h1{
-    text-align: center;
-}
-fiel{
-    width: 100%;
-    max-width: 90%;
-    margin: 0 auto;
-    border: none;
-    padding: 20px 0;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.51);
-
-}
-
-.contact:last-of-type{
-    border-bottom: none;
-}
-
-main form {
-    width: 100%;
-    max-width: 800px;
-    scale: 0.9;
-    margin: 0 auto;
-    background-color: #1983bd;
-    padding: 30px 50px;
-    font-family: 'typo';
-    color: white;
-    border-radius: 25px;
-    margin-bottom: 30px;
-}
-
-label {
-    display:block;
-    margin: 10px 0;
-    width: 100%;
-   
-   
-    border-radius:  5px;
-}
-input {
-    width: 100%;
-    margin-top: 10px!important;
-    border-radius: 3px;
-    border: none;
-    padding: 10px !important;
+  
     
 }
 
 
-
-textarea{
-    width: 100%;
-     margin-top: 10px!important; 
-    border-radius:  3px;
-    border: none; 
-    padding: 10px !important;
-}
-
-
-
-#btn{
-     background-color: #759915;
-    border: none;
-    color: white;
-    width: 100%;
-   max-width:200px;
-   margin: 0 auto;
-   cursor: pointer;
-   padding: 20px 0;
-   transition: 0.25s ease;
-}
-
-#btn:hover {
-    background-color: #fff;
-    color: #1983bd;
-    transition: 0.25s ease;
-}
-   
 
 
 
@@ -878,7 +879,7 @@ textarea{
 
         padding-top: 0;
 
-        text-align: start;
+        text-align: center;
         
     }
 }
@@ -891,21 +892,7 @@ textarea{
         text-align: center;
     }
     
-    /* .img-format{
-        width: 100%;
-    }
-    .img-format{
-    width: 100%;
-        max-width:100%;
-        height:auto;
-    }
-    .img-format img{
-        width: 100%;
-        height: auto;
-       
 
-        
-    } */
     
     }
     .filière{
@@ -931,13 +918,10 @@ textarea{
         flex-direction: column;
         justify-content: center ;
         align-items: center  ;
-        position : relative; 
-       right: 30px;
-       padding: 30px;
+        width: 100%;
+        max-width: 400px !important;
+     
+       
     }
-    .hero-text h2{
-
-        position : relative; 
-        right: -40px;
-    }
+   
 }
