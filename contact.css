@@ -124,7 +124,7 @@ header nav ul li a{
     }
     .menu .bar, .menu::after, .menu::before {
         content: "";
-        height: 2px;
+        height: 2.1px;
         width: 100%;
         background-color: #1983bd;
         display: block;
@@ -368,6 +368,7 @@ scale: 1.1;
    position: relative;
    z-index: 99;
     cursor: pointer;
+    bottom: 4px;
 }
 
 
