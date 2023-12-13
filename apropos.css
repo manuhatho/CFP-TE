@@ -368,7 +368,7 @@ body.active{
     z-index: -1;
     transition:  0.25s;
     box-shadow: 1px 1px 5px 5px #ffffff2f;
-    animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+    /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
     
 }
 
