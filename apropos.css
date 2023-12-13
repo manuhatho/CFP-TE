@@ -913,7 +913,7 @@ body.active{
 
 .background-blender.active{
     opacity: 1;
-    z-index:99;
+    /* z-index:99; */
     animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     /* background-color: rgba(0, 0, 0, 0.589); */
 }
@@ -926,14 +926,14 @@ body.active{
     top: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.821);
+    background-color: rgba(0, 0, 0, 0.589);
     opacity:0;
     z-index: -1;
 }
 
 form.active{
     opacity: 1 !important;
-    animation: fade 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     z-index: 99;
     transition: 0.25s;
     
@@ -963,6 +963,19 @@ form{
     
 }
 
+form::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.829);
+    display: block;
+    position: fixed;
+    scale:30 ;
+    z-index: -1;
+    transition: 0.4s;
+    animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+
+}
  .form {
     color: white;
     text-align: center;

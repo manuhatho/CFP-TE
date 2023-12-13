@@ -35,12 +35,13 @@
                
                 <a href="./index.html">Accueil</a>
                 <div class="sect"></div>
-                <div class="sect"></div>
                 <a href="#">à propos</a>
                 <div class="sect"></div>
                 <a href="#Nos_Atouts">Nos atouts</a>
                 <div class="sect"></div>
                 <a href="#Nos_Formations">Formation</a>
+                <div class="sect"></div>
+                <a href="#Notre_Vision">Notre Vision</a>
                 <div class="sect"></div>
                 <a href="./contact.html">Contact</a>
                 <div class="sect"></div>
@@ -389,7 +390,7 @@
                            
                         </div>
                        </div>
-                       <p id="white">Entrepreneuriat et création <br>d'entreprise </p>      
+                       <p class="itp" id="white">Entrepreneuriat et création <br>d'entreprise </p>      
                    
                 </div>
                 <div class="box white-2">
@@ -457,7 +458,7 @@
         <div class="galery">
             <div class="img-format">
                 <img src="./1.png" alt="">
-                <p class="filière">Entrepreneuriat et Création d'Entreprise</p>
+                <p  class="filière">Entrepreneuriat et Création d'Entreprise</p>
             </div>
            
         </div>
@@ -740,12 +741,11 @@
     </div>
 
 
+        <div class="background-blender"></div>
 
-    
+        <form id="inspForm"  name="InscriptionForm" method="post">
 
-    <div id="back" class="inspcrition">
-        <form  name="InscriptionForm" method="post"></form>
-        <div class="menu2">
+        <div id="insp" class="menu2">
             <div class="bar2"></div>
         </div>
         <h2 class="form">Inscription</h2>
@@ -765,7 +765,7 @@
                 
             <fieldset class="texte">
                 <label>Formations
-                </label>
+                
                 <select name="Formation" id="formation">
                     <option value="">Selectionner votre Formation</option>
                     <option value="1">Entrepreuriat et Création d'Entreprise</option>
@@ -782,13 +782,13 @@
                     <option value="12">Programmation et Developpement des applications</option>
                 
                 </select>
-                   
+                 </label>
                 <input type="submit" id="btn" value="Envoyer">
             </fieldset>
                 
             </form>
        
-    </div>
+    
                  
         
 
@@ -803,7 +803,6 @@
          });
 
          ScrollReveal().reveal('.h1', { delay: 500, orgin:"up" });
-         ScrollReveal().reveal('p', { delay: 500, orgin:"up" });
          ScrollReveal().reveal('p', { delay: 50, orgin:"right" });
          ScrollReveal().reveal('.img-format', { delay: 50, orgin:"left" });
     

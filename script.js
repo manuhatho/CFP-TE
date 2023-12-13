@@ -90,29 +90,14 @@ function crossBar(){
 }
 crossBar()
 
-function crossBar2(){
-   
-    const bar2 = ducment.querySelector("bar2");
-    
-    const navbtn = document.getElementById("insp"); 
-    navbtn.addEventListener("click",function(){
-        console.log('click');
-        inscription.style.display = "block"
-        body.classList.add("active")
+const insp = document.querySelectorAll("#insp");
+const backgroundBlender = document.querySelector('.background-blender');
+const form = document.getElementById('inspForm');
+const menu2 =  document.querySelector(".menu2");
 
+insp.forEach(function(btn){
+    btn.addEventListener("click",function(){
+        backgroundBlender.classList.toggle("active");
+       form.classList.toggle("active");
     })
-    bar2.addEventListener("click",function(){
-       
-        body.classList.remove("active")
-    })
-
-}
-const inscription = document.querySelector("form");
-// console.log(inscription);
-const navbtn = document.getElementById("insp"); 
-navbtn.addEventListener("click",function(){
-    console.log('click');
-    inscription.classList.toggle("active")
-    
-
 })

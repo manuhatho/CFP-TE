@@ -264,6 +264,162 @@ header nav ul li a{
 
 
 
+.menu2 {
+
+    width:100%;
+    max-width: 35px;
+    height: 35px;
+    transition: 0.25s ease;
+    position: absolute;
+    right: 22px;
+    top: 10px;
+    cursor: pointer; 
+    
+    
+
+    
+}
+.menu2 .bar2, .menu2::after, .menu2::before {
+    
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #ffffff;
+    display: block;
+    margin: 8px 0;
+    transition: 0.25s ease;
+   
+}
+
+.menu2 .bar {
+    background-color: #759915;
+}
+
+.menu2::before{
+    transform: rotate(45deg) translate(6px , 8px);
+    transition: 0.25s ease;
+}
+
+.menu2::after{
+    transform: rotate(-45deg) translate(6px , -8px);
+    background-color: #ffffff;
+    transition: 0.25s ease;
+}
+
+.menu2 .bar2 {
+    opacity: 0;
+}
+
+body.active{
+    filter: blur(2px);
+}
+
+.inscription.active{
+    display: block;
+}
+
+.background-blender.active{
+    opacity: 1;
+    z-index:99;
+    animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* background-color: rgba(0, 0, 0, 0.589); */
+}
+
+
+.background-blender{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.821);
+    opacity:0;
+    z-index: -1;
+}
+
+#inspForm.active{
+    opacity: 1 !important;
+    animation: fade 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+    z-index: 99;
+    transition: 0.25s;
+    
+}
+#inspForm.active2{
+    opacity: 0 !important;
+   
+    z-index: -1 !important;
+}
+#inspForm{
+    background-color: #000000;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    border-radius:10px;
+    font-family: 'typo';
+    position: fixed;
+    top:0px;
+    right: 0;
+    left: 0;
+    scale: 0.8;
+    opacity:0;
+    z-index: -1;
+    transition:  0.25s;
+    /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
+    
+}
+
+ .form {
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+label, input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+   
+}
+input{
+    margin-top: 10px !important;
+}
+select {
+    margin-top: 10px !important;
+    max-height: 40px;
+    background-color: #fff;
+}
+label{
+    display: block;
+    color: white;
+    
+}
+.formInscrip{
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.formInscrip:last-of-type {
+    border-bottom: none;
+}
+
+input[type='submit']{
+    background-color: #759915;
+    width: 100%;
+    max-width: 200px;
+    border: none;
+    margin-top: 100px;
+    color: white;
+    transition: 0.25s ease;
+}
+input[type='submit']:hover{
+    background-color: #ffffff;
+    color: #1983bd;
+    transition: 0.25s ease;
+}
+
+
+
 /* ----CONTACT------------------------------------------------------------------------------------ */
 
 main h1{
@@ -275,7 +431,7 @@ main h1{
 }
 
 
-main form {
+main #contactFormulaire{
     width: 100%;
     max-width: 800px;
     scale: 0.9;
@@ -290,7 +446,7 @@ main form {
   
 }
 
-fieldset{
+#contact{
     border: none;
     border-bottom: 2px solid;
     margin-bottom: 5px;
@@ -299,10 +455,10 @@ fieldset{
   
 
 }
-fieldset:last-of-type{
+#contact:last-of-type{
     border-bottom: none;
 }
-label {
+.label {
     display:block;
     margin: 10px 0;
     width: 100%;
@@ -310,7 +466,7 @@ label {
    
     border-radius:  5px;
 }
-input {
+.iname, .iprenom , .iphone {
     width: 100%;
     margin-top: 10px!important;
     border-radius: 3px;
@@ -351,7 +507,7 @@ input[type="submit"]{
     transition: 0.25s ease;
 }
    
-
+/* ------------------------------------------------------------------------------------ */
 
 
 .fa-brands {
