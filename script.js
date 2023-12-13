@@ -103,6 +103,7 @@ function inscription(){
         btn.addEventListener("click",function(){
             backgroundBlender.classList.toggle("active");
            form.classList.toggle("active");
+           
         })
     })
 }

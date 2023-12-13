@@ -367,7 +367,7 @@ body.active{
     border-radius:10px;
     font-family: 'typo';
     position: fixed;
-    top:5px;
+    top:0;
     right: 0;
     left: 0;
     
