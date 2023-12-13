@@ -53,6 +53,13 @@ header {
    
     
 }
+
+svg{
+    height: 100%;
+    max-height: 80px;
+    margin-bottom: 10px;
+}
+
 header .logo img{
     height: 50px;
 }
@@ -667,6 +674,9 @@ text-align: center;
 background-color: rgb(13, 13, 13);
 transition: 0.25s ease;
 
+}
+.nav2 #insp{
+    cursor: pointer;
 }
 .sect{
 border-bottom: 1px solid;

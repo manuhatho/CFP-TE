@@ -818,6 +818,9 @@ background-color: rgb(13, 13, 13);
 transition: 0.25s ease;
 
 }
+.nav2 #insp{
+    cursor: pointer;
+}
 .sect{
 border-bottom: 1px solid;
 border-color: #1983bd;

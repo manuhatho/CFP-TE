@@ -90,14 +90,22 @@ function crossBar(){
 }
 crossBar()
 
-const insp = document.querySelectorAll("#insp");
-const backgroundBlender = document.querySelector('.background-blender');
-const form = document.getElementById('inspForm');
-const menu2 =  document.querySelector(".menu2");
 
-insp.forEach(function(btn){
-    btn.addEventListener("click",function(){
-        backgroundBlender.classList.toggle("active");
-       form.classList.toggle("active");
+
+
+function inscription(){
+    const insp = document.querySelectorAll("#insp");
+    const backgroundBlender = document.querySelector('.background-blender');
+    const form = document.getElementById('inspForm');
+    const menu2 =  document.querySelector(".menu2");
+    
+    insp.forEach(function(btn){
+        btn.addEventListener("click",function(){
+            backgroundBlender.classList.toggle("active");
+           form.classList.toggle("active");
+        })
     })
-})
+}
+inscription();
+
+
