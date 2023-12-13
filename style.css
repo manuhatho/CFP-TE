@@ -283,6 +283,7 @@ fieldset {
     margin-bottom: 30px;
     border-bottom: 2px solid;
     border-color: #1983bd;
+    margin-top: 50px;
 
 }
 .bar-bottom{
@@ -1016,6 +1017,7 @@ input[type='submit']:hover{
 
 #visionContent{
     padding: 50px 0;
+    font-size: 17px;
 }
 .vision-content {
     display: flex;

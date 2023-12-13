@@ -418,6 +418,60 @@ input[type='submit']:hover{
     color: #1983bd;
     transition: 0.25s ease;
 }
+/* ------  A PROPOS------------------------------------------------------------------ */
+
+#apropos{
+    font-size: 19px;
+    padding: 50px 0;
+    width: 100%;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+.apropos-content {
+    flex-direction: column;
+    font-family: "typo";
+    margin-bottom: 25px;
+    
+}
+
+.apropos-content{
+    font-family: "typo";
+    padding: 20px 0;
+    text-align: justify;
+    
+   
+}
+.apropos-content p{
+    margin-bottom: 15px !important;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.apropos-content #end{
+    color: #759915;
+    font-weight: bold;
+
+}
+.metiers-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+   
+    
+}
+.metiers-content i{
+    margin-bottom: 15px;
+    color: #1983bd;
+    
+}
+.metiers-content p{
+    font-weight: bold;
+    margin-left: 5px;
+    
+    
+}
 
 
 
@@ -530,6 +584,8 @@ input[type="submit"]{
 }
    
 /* ------------------------------------------------------------------------------------ */
+
+
 
 
 .fa-brands {
