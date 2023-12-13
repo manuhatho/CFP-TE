@@ -346,11 +346,7 @@ body.active{
     transition: 0.25s;
     
 }
-#inspForm.active2{
-    opacity: 0 !important;
-   
-    z-index: -1 !important;
-}
+
 #inspForm{
     background-color: #000000;
     width: 100%;
