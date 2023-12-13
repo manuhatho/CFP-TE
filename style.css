@@ -357,14 +357,7 @@ svg{
     margin: 0 auto;
    
 }
-#sect3 {
-  
-    /* width: 100%;
-    max-width: 90%;
-    padding-bottom: 50px;
-    margin: 0 auto; */
-   
-}
+
 
  .sect1 {
     font-family: "typo";
@@ -784,7 +777,8 @@ left: 0;
 right: 0;
 z-index: 99;
 margin: 0 auto;
-transition: 0.25s cubic-bezier(.17,.84,.44,1);
+/* transition: 0.25s cubic-bezier(.17,.84,.44,1); */
+padding: 0 15px;
 
 }
 
