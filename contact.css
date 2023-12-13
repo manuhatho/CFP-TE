@@ -829,6 +829,8 @@ to{
         
        
     }
+    .agrément h3 {
+        font-size: 12px !important;
     .galery{
         width: 100%;
       max-width: 400px;
@@ -845,6 +847,11 @@ to{
     }
 }
 
+@media (max-width:422px){
+    .agrément h3 {
+        font-size: 10px !important;
+    }
+}
 @media (max-width:395px){
     .hero-text{
         
@@ -865,6 +872,11 @@ to{
     }
 }
 
+@media (max-width:352px){
+    .agrément h3 {
+        font-size: 10px !important;
+    }
+}
 @media (max-width:380px){
     .img-format img {
         
