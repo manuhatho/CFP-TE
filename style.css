@@ -1014,6 +1014,34 @@ input[type='submit']:hover{
     transition: 0.25s ease;
 }
 
+#visionContent{
+    padding: 50px 0;
+}
+.vision-content {
+    display: flex;
+    flex-direction: column;
+    font-family: "typo";
+    color: #1983bd;
+    margin-bottom: 25px;
+    
+}
+
+.vision-txt{
+    font-family: "typo";
+    padding: 20px 0;
+    text-align: justify;
+    font-weight: bold;
+   
+}
+.vision-txt p{
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 800px;
+}
+.vision-txt #end{
+    color: #759915;
+
+}
 
 
 
@@ -1068,9 +1096,12 @@ input[type='submit']:hover{
     
 
 /* 2xl */
-@media (max-width:631px){
+@media (max-width:650px){
     .hero-text{
         scale: 0.9;
+    }
+    .agrément h3{
+        font-size: 13px;
     }
 }
 @media (max-width:561px){
@@ -1113,6 +1144,12 @@ input[type='submit']:hover{
         border-radius: 20px;
         
        
+    }
+    .agrément h3{
+        font-size: 12px !important;
+    }
+    .agrément h3{
+        font-size: 13px;
     }
     .galery{
         width: 100%;
