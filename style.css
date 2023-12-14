@@ -17,6 +17,11 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
 h1, h2, h3, p {
     user-select: none;
    
@@ -35,7 +40,7 @@ body {
     width: 100%
   height 110vh;
     overflow-x: hidden !important;
-    scroll-behavior: smooth;
+   overflow-y: scroll;
     
 }
 
@@ -796,7 +801,8 @@ max-width: 50%;
 width: 100%;
 left: 0;
 top: 0;
-
+overflow: scroll;
+scroll-behavior: smooth;
 z-index: 98;
 background-color: black;
 padding-top: 60px;
@@ -813,6 +819,8 @@ padding: 15px 10px;
 transition: 0.25s ease;
 font-size: 15px;
 text-align: center;
+overflow: scroll;
+scroll-behavior: smooth;
 }
 .nav2 a:hover{
 background-color: rgb(13, 13, 13);
@@ -961,6 +969,7 @@ form{
     left: 0;
     scale: 1;
     opacity:0;
+    overflow-y: scroll;
     z-index: -1;
     transition:  0.25s;
     box-shadow: 1px 1px 5px 5px #ffffff2f;
@@ -969,7 +978,7 @@ form{
 }
 
  .form {
-    color: white;
+    color: #1983bd;
     text-align: center;
     font-size: 1.8rem;
 }

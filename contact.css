@@ -22,11 +22,14 @@ h1, h2, h3, p {
    
 
 }
-
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
 body {
     width: 100%;
     height: 120vh;
-    scroll-behavior: smooth;
+   
 
    
    
@@ -370,7 +373,7 @@ body.active{
     top:0;
     right: 0;
     left: 0;
-    
+    overflow-y: scroll;
     opacity:0;
     z-index: -1;
     transition:  0.4s;
@@ -380,7 +383,7 @@ body.active{
 }
 
  .form {
-    color: white;
+    color: #1983bd;
     text-align: center;
     font-size: 1.8rem;
 }
@@ -664,7 +667,8 @@ max-width: 50%;
 width: 100%;
 left: 0;
 top: 0;
-
+overflow: scroll;
+scroll-behavior: smooth;
 z-index: 98;
 background-color: black;
 padding-top: 60px;
