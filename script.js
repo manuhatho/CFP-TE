@@ -121,7 +121,6 @@ function inscription(){
     
     insp.forEach(function(btn){
         btn.addEventListener("click",function(){
-            console.log("click");
             backgroundBlender.classList.toggle("active");
            form.classList.toggle("active");
            body.classList.toggle("active");
