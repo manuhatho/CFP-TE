@@ -398,7 +398,7 @@ header nav ul li a{
     /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
 
 }
-form::-webkit-scrollbar{
+#inspForm::-webkit-scrollbar{
 
    width: 0;
 }
@@ -496,9 +496,6 @@ main #contactFormulaire{
     border-bottom: 2px solid;
     margin-bottom: 50px;
     padding-bottom: 5px;
-    
-   
-  
 
 }
 #contact:last-of-type{
@@ -1179,8 +1176,9 @@ to{
    
 }
 
+/* max height */
 @media (max-height: 647px){
-    form{
+    #inspForm{
         height: 110vh;
     }
 }
