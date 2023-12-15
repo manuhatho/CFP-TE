@@ -967,10 +967,10 @@ form{
     border-radius:10px;
     font-family: 'typo';
     position: fixed;
-    top:-65px;
+    top:0;
     right: 0;
     left: 0;
-    scale: 0.8;
+    scale: 0.9;
     opacity:0;
     z-index: -1;
     transition:  0.4s;

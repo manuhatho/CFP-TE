@@ -370,14 +370,16 @@ body.active{
     border-radius:10px;
     font-family: 'typo';
     position: fixed;
-    top:-65px;
+    top:0;
     right: 0;
     left: 0;
-    scale: 0.8;
+    scale: 0.9;
     opacity:0;
     z-index: -1;
     transition:  0.4s;
     box-shadow: 1px 1px 5px 5px #ffffff2f;
+
+    
     /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
     
 }
@@ -409,6 +411,7 @@ label{
 .formInscrip{
     border: none;
     border-bottom: 2px solid white;
+   margin-bottom: 50px; 
 }
 
 .formInscrip:last-of-type {
@@ -469,7 +472,7 @@ main #contactFormulaire{
 #contact{
     border: none;
     border-bottom: 2px solid;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
     padding-bottom: 5px;
     
    

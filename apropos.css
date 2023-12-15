@@ -359,10 +359,11 @@ body.active{
     border-radius:10px;
     font-family: 'typo';
     position: fixed;
-    top:-65px;
+ 
+    top: 0;
     right: 0;
     left: 0;
-    scale: 0.8;
+    scale: 0.9;
     opacity:0;
     z-index: -1;
     transition:  0.4s;
@@ -398,6 +399,7 @@ label{
 .formInscrip{
     border: none;
     border-bottom: 2px solid white;
+    margin-bottom: 50px;
 }
 
 .formInscrip:last-of-type {
@@ -417,7 +419,16 @@ input[type='submit']:hover{
     background-color: #ffffff;
     color: #1983bd;
     transition: 0.25s ease;
+
+    
 }
+#contact{
+    border: none;
+    border-bottom: 2px solid;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+}
+
 /* ------  A PROPOS------------------------------------------------------------------ */
 
 #apropos{
@@ -475,7 +486,7 @@ input[type='submit']:hover{
 
 
 
-/* ----CONTACT------------------------------------------------------------------------------------ */
+----CONTACT------------------------------------------------------------------------------------
 main{
     font-family: 'typo';
     width: 100%;
@@ -525,11 +536,8 @@ main #contactFormulaire{
 #contact{
     border: none;
     border-bottom: 2px solid;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
     padding-bottom: 5px;
-   
-  
-
 }
 #contact:last-of-type{
     border-bottom: none;
