@@ -384,10 +384,16 @@ header nav ul li a{
     transition:  0.6s cubic-bezier(1,0,0,1) !important; 
     box-shadow: 1px 1px 5px 5px #ffffff2f;
     transform: translateY(1000px) !important;
+    overflow-y: auto !important;
+    transform:  translateY(1000px) !important;
+   
     /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
-    
-}
 
+}
+form::-webkit-scrollbar{
+
+   width: 0;
+}
  .form {
     color: #1983bd;
     text-align: center;
