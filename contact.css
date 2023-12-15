@@ -370,10 +370,10 @@ body.active{
     border-radius:10px;
     font-family: 'typo';
     position: fixed;
-    top:0;
+    top:-75px;
     right: 0;
     left: 0;
-    scale: 0.9;
+    scale: 0.8;
     opacity:0;
     z-index: -1;
     transition:  0.4s;
@@ -388,6 +388,8 @@ body.active{
     color: #1983bd;
     text-align: center;
     font-size: 1.8rem;
+    font-weight: bold;
+    display: block;
 }
 label, input, select {
     width: 100%;
