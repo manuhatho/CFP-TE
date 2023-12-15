@@ -986,9 +986,10 @@ form{
     scale: 0.8;
     opacity:0;
     z-index: -1;
-    transition:  0.4s cubic-bezier(.17,.84,.44,1); 
+    transition:  1s cubic-bezier(.17,.84,.44,1); 
     box-shadow: 1px 1px 5px 5px #ffffff2f;
-    transform: translateY(1000px) !important;
+    
+    transform:  translateY(1000px) !important;
    
     /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
     

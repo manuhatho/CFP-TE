@@ -386,7 +386,7 @@ header nav ul li a{
     scale: 0.8;
     opacity:0;
     z-index: -1;
-    transition:  0.4s cubic-bezier(.17,.84,.44,1) !important;
+    transition:  1s cubic-bezier(.17,.84,.44,1) !important;
     box-shadow: 1px 1px 5px 5px #ffffff2f;
     transform: translateY(1000px) !important;
     
