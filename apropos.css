@@ -355,12 +355,13 @@ body.active{
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+    height: fit-content;
     padding: 40px 30px;
     border-radius:10px;
     font-family: 'typo';
     position: fixed;
- 
-    top: -75px;
+    bottom: 0;
+    top: 0;
     right: 0;
     left: 0;
     scale: 0.8;

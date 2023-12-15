@@ -366,11 +366,13 @@ body.active{
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+    height: fit-content;
     padding: 40px 30px;
     border-radius:10px;
     font-family: 'typo';
     position: fixed;
-    top:-75px;
+    bottom: 0;
+    top: 0;
     right: 0;
     left: 0;
     scale: 0.8;
@@ -378,7 +380,6 @@ body.active{
     z-index: -1;
     transition:  0.4s;
     box-shadow: 1px 1px 5px 5px #ffffff2f;
-
     
     /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
     
