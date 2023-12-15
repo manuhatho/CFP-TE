@@ -95,7 +95,7 @@ function close(){
     const nav = document.querySelector(".nav2");
     const transparent = document.querySelector(".transparent");
     const bar = document.querySelector(".menu");
-    console.log(html);
+ 
 const atout = document.querySelectorAll("#close");
 atout.forEach(function(lien){
     lien.addEventListener("click",function(){
@@ -121,6 +121,7 @@ function inscription(){
     
     insp.forEach(function(btn){
         btn.addEventListener("click",function(){
+            console.log("click");
             backgroundBlender.classList.toggle("active");
            form.classList.toggle("active");
            body.classList.toggle("active");
