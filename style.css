@@ -29,6 +29,13 @@ h1, h2, h3, p {
    
 
 }
+body::-webkit-scrollbar{
+    width: 6px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #759915;
+    border-radius: 50px;
+}
 
 body {
     width: 100%;
