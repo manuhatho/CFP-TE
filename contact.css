@@ -254,6 +254,7 @@ header nav ul li a{
     transform: rotate(90deg);
     left: -15px;
 }
+
 .hero-text h2::after{
     content: "";
     width: 100%;
@@ -262,8 +263,9 @@ header nav ul li a{
     background-color: white;
     position: absolute;
     transform: rotate(90deg);
-    right: 0px;
+    right: 18px !important;
     top: 0;
+    height: 50px;
 }
 .agrément{
     text-transform: uppercase;
