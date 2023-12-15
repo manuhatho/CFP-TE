@@ -95,14 +95,19 @@ crossBar()
 
 function inscription(){
     const insp = document.querySelectorAll("#insp");
+    const over = document.querySelector('.over')
     const backgroundBlender = document.querySelector('.background-blender');
     const form = document.getElementById('inspForm');
     const menu2 =  document.querySelector(".menu2");
+    const body = document.querySelector("body");
     
     insp.forEach(function(btn){
         btn.addEventListener("click",function(){
             backgroundBlender.classList.toggle("active");
            form.classList.toggle("active");
+           body.classList.toggle("active");
+           over.classList.toggle("active");
+           
            
         })
     })

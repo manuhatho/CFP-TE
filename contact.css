@@ -328,8 +328,8 @@ header nav ul li a{
     opacity: 0;
 }
 
-body.active{
-    filter: blur(2px);
+.over.active{
+    filter: blur(5px);
 }
 
 .inscription.active{
