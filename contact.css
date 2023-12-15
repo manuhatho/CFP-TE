@@ -674,7 +674,7 @@ transition: 0.25s cubic-bezier(.17,.84,.44,1);
 .nav2.active {
 opacity:1;
 transform: translateX(0);
-transition: 0.4s cubic-bezier(.17,.84,.44,1);
+transition:  0.6s cubic-bezier(1,0,0,1) !important; 
 }
 .nav2{
 display: block;
@@ -689,7 +689,7 @@ z-index: 98;
 background-color: black;
 padding-top: 60px;
 transform: translateX(-500px);
-transition: 0.4s cubic-bezier(.17,.84,.44,1);
+transition:  0.6s cubic-bezier(1,0,0,1) !important; 
 opacity: 0;
 overflow-y: scroll;
 

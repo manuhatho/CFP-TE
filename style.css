@@ -940,7 +940,7 @@ to{
 .background-blender.active{
     opacity: 1;
     z-index:99;
-    animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: fade 1s  cubic-bezier(1,0,0,1) !important; 
     /* background-color: rgba(0, 0, 0, 0.589); */
 }
 
@@ -961,8 +961,7 @@ form.active{
     opacity: 1 !important;
     transform: translateY(0) !important;
     z-index: 99;
-    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
-    
+    transition: 0.6s cubic-bezier(1,0,0,1) !important; 
 }
 form.active2{
     opacity: 0 !important;
@@ -985,7 +984,7 @@ form{
     scale: 0.8;
     opacity:0;
     z-index: -1;
-    transition:  0.7s cubic-bezier(.17,.84,.44,1) !important; 
+    transition:  0.6s cubic-bezier(1,0,0,1) !important; 
     box-shadow: 1px 1px 5px 5px #ffffff2f;
     overflow-y: scroll;
     transform:  translateY(1000px) !important;
