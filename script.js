@@ -128,9 +128,11 @@ function inscription(){
            
            
         })
+        
     })
 }
 inscription();
+
 
 function out(){
     const transparent = document.querySelector(".transparent");
