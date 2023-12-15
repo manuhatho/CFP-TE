@@ -109,4 +109,21 @@ function inscription(){
 }
 inscription();
 
+function out(){
+    const transparent = document.querySelector(".transparent");
+    const nav = document.querySelector(".nav2");
+    const bar = document.querySelector(".menu");
+  
+    transparent.addEventListener('click', function(){
+        console.log('click');
+        bar.classList.toggle("active");
+        nav.classList.toggle("active");
+        transparent.classList.toggle("active");
+       
+    })
+    
+    };
+
+out();
+
 
