@@ -370,10 +370,10 @@ body.active{
     border-radius:10px;
     font-family: 'typo';
     position: fixed;
-    top:0;
+    top:-65px;
     right: 0;
     left: 0;
-    overflow-y: scroll;
+    scale: 0.8;
     opacity:0;
     z-index: -1;
     transition:  0.4s;
@@ -783,7 +783,13 @@ to{
       }
 
 
-@media (max-width:742){}
+@media (max-width:742){
+    .nav2{
+        width: 100%;
+        max-width: 50%;
+        
+    }
+}
     
 
 /* 2xl */

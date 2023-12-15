@@ -266,7 +266,7 @@ header nav ul li a{
     }
 }
 
-
+/* --INSCRIPTION-------------------------------------------------------------------------- */
 
 .menu2 {
 
@@ -344,7 +344,7 @@ body.active{
 
 #inspForm.active{
     opacity: 1 !important;
-    animation: fade 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* animation: fade 0.25s cubic-bezier(0.075, 0.82, 0.165, 1); */
     z-index: 99;
     transition: 0.25s;
     
@@ -359,14 +359,13 @@ body.active{
     border-radius:10px;
     font-family: 'typo';
     position: fixed;
-    top:0;
+    top:-65px;
     right: 0;
     left: 0;
-    scale: 1;
+    scale: 0.8;
     opacity:0;
     z-index: -1;
-    overflow-y: scroll;
-    transition:  0.25s;
+    transition:  0.4s;
     box-shadow: 1px 1px 5px 5px #ffffff2f;
     /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
     
@@ -840,7 +839,13 @@ to{
       }
 
 
-@media (max-width:742){}
+@media (max-width:742){
+    .nav2{
+        width: 100%;
+        max-width: 50%;
+        
+    }
+}
     
 
 /* 2xl */
