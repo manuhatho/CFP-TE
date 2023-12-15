@@ -20,6 +20,7 @@
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    
 
 }
 
@@ -43,6 +44,7 @@ body {
     width: 100%;
     height: 120vh;
     scroll-behavior: smooth;
+    
    
 }
 
@@ -972,7 +974,7 @@ form{
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    height: fit-content;
+    max-height: fit-content;
     padding: 40px 30px;
     border-radius:10px;
     font-family: 'typo';
@@ -986,14 +988,15 @@ form{
     z-index: -1;
     transition:  0.6s cubic-bezier(1,0,0,1) !important; 
     box-shadow: 1px 1px 5px 5px #ffffff2f;
-    overflow-y: scroll;
+    overflow-y: auto !important;
     transform:  translateY(1000px) !important;
    
     /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
 
 }
 form::-webkit-scrollbar{
-    width: 0;
+
+   width: 0;
 }
 
 .texte {
@@ -1306,5 +1309,11 @@ input[type='submit']:hover{
     .hero-text h1{
         position : relative; 
         bottom: 50px ;
+    }
+}
+/* max height */
+@media (max-height: 647px){
+    form{
+        height: 110vh;
     }
 }
