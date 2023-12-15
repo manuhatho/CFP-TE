@@ -23,6 +23,7 @@ h1, h2, h3, p {
 
 }
 html{
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 

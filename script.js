@@ -95,6 +95,7 @@ function close(){
     const nav = document.querySelector(".nav2");
     const transparent = document.querySelector(".transparent");
     const bar = document.querySelector(".menu");
+    console.log(html);
 const atout = document.querySelectorAll("#close");
 atout.forEach(function(lien){
     lien.addEventListener("click",function(){
