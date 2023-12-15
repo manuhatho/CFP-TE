@@ -987,11 +987,14 @@ form{
     z-index: -1;
     transition:  0.7s cubic-bezier(.17,.84,.44,1) !important; 
     box-shadow: 1px 1px 5px 5px #ffffff2f;
-    
+    overflow-y: scroll;
     transform:  translateY(1000px) !important;
    
     /* animation: fade 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important; */
-    
+
+}
+form::-webkit-scrollbar{
+    width: 0;
 }
 
 .texte {
