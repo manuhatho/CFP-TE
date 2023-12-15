@@ -847,7 +847,7 @@ to{
       }
 
 
-@media (max-width:742){
+@media (max-width:742px){
     .nav2{
         width: 100%;
         max-width: 50%;
@@ -942,7 +942,7 @@ to{
         bottom: 50px; */
 
 
-        text-align: start;
+        
         
     }
 }

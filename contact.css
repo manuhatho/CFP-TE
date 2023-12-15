@@ -989,7 +989,13 @@ to{
       }
 
 
-@media (max-width:742){}
+@media (max-width:742px){
+    .nav2{
+        width: 100%;
+        max-width: 50%;
+        
+    }
+}
     
 
 /* 2xl */
@@ -1001,7 +1007,7 @@ to{
 @media (max-width:561px){
     .hero-text{
         scale: 0.8;
-        padding-top: 100px;
+        padding-top: 140px;
     }
      .section-1{
         width: 100%;
