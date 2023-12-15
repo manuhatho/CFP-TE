@@ -91,6 +91,23 @@ function crossBar(){
 crossBar()
 
 
+function close(){
+    const nav = document.querySelector(".nav2");
+    const transparent = document.querySelector(".transparent");
+    const bar = document.querySelector(".menu");
+const atout = document.querySelectorAll("#close");
+atout.forEach(function(lien){
+    lien.addEventListener("click",function(){
+        bar.classList.toggle("active");
+        nav.classList.toggle("active");
+        transparent.classList.toggle("active");
+     })
+})
+
+}
+close();
+
+
 
 
 function inscription(){
