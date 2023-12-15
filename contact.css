@@ -385,7 +385,7 @@ header nav ul li a{
     top: 0;
     right: 0;
     left: 0;
-    scale: 0.8;
+    /* scale: 0.8; */
     opacity:0;
     z-index: -1;
     transition:  0.7s cubic-bezier(.17,.84,.44,1) !important;
