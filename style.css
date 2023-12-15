@@ -40,7 +40,7 @@ body {
     width: 100%
   height 110vh;
     overflow-x: hidden !important;
-   overflow-y: scroll;
+
     
 }
 
@@ -801,7 +801,6 @@ max-width: 50%;
 width: 100%;
 left: 0;
 top: 0;
-overflow: scroll;
 scroll-behavior: smooth;
 z-index: 98;
 background-color: black;
@@ -809,6 +808,7 @@ padding-top: 60px;
 transform: translateX(-500px);
 transition: 0.4s cubic-bezier(.17,.84,.44,1);
 opacity: 0;
+
 }
 .nav2 a {
     
@@ -819,7 +819,6 @@ padding: 15px 10px;
 transition: 0.25s ease;
 font-size: 15px;
 text-align: center;
-overflow: scroll;
 scroll-behavior: smooth;
 }
 .nav2 a:hover{

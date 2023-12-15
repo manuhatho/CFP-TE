@@ -667,7 +667,6 @@ max-width: 50%;
 width: 100%;
 left: 0;
 top: 0;
-overflow: scroll;
 scroll-behavior: smooth;
 z-index: 98;
 background-color: black;
