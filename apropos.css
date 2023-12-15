@@ -834,6 +834,8 @@ to{
     nav{
         display: none;
         }
+
+    }
 /* 2xl */
 @media (max-width:998px){
     .nav2{
@@ -875,6 +877,7 @@ to{
         top:  1px;
       }
 
+    }
 
 @media (max-width:742px){
     .nav2{
@@ -920,6 +923,7 @@ to{
     width: 100%;
    
 
+}
 }
 /* 2xl */
 @media (max-width:475px){
@@ -979,6 +983,7 @@ to{
 @media (max-width:352px){
     .agrément h3 {
         font-size: 8px !important;
+}
 }
 @media (max-width:380px){
     .img-format img {
@@ -1044,6 +1049,7 @@ to{
     nav{
         display: none;
         }
+    }
 /* 2xl */
 @media (max-width:909px){
     .hero h1 {
@@ -1077,7 +1083,7 @@ to{
         height: 30px;
         top:  1px;
       }
-
+    }
 
 @media (max-width:742){}
     
@@ -1159,6 +1165,7 @@ to{
    
 
 }
+}
 /* 2xl */
 @media (max-width:475px){}
 
@@ -1202,7 +1209,7 @@ to{
     }
     
     
-
+}
 
 @media (max-width:331px){
     .hero-text{

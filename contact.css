@@ -771,6 +771,7 @@ to{
     nav{
         display: none;
         }
+    }
 /* 2xl */
 @media (max-width:998px){
     .nav2{
@@ -856,6 +857,8 @@ to{
  .about-content {
     width: 100%;
    
+
+}
 
 }
 /* 2xl */
@@ -956,7 +959,7 @@ to{
  
     }
     
-    
+}
 
 
 @media (max-width:331px){
@@ -981,6 +984,8 @@ to{
     nav{
         display: none;
         }
+
+    }
 /* 2xl */
 @media (max-width:909px){
     .hero h1 {
@@ -1014,7 +1019,7 @@ to{
         height: 30px;
         top:  1px;
       }
-
+    }
 
 @media (max-width:742px){
     .nav2{
@@ -1102,6 +1107,9 @@ to{
    
 
 }
+
+}
+
 /* 2xl */
 @media (max-width:475px){}
 
@@ -1129,7 +1137,7 @@ to{
     
 
     
-    }
+
     .filière{
         scale: 0.9;
         
@@ -1145,7 +1153,7 @@ to{
     }
     
     
-
+}
 
 @media (max-width:331px){
     .hero-text{

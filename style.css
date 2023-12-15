@@ -1095,6 +1095,7 @@ input[type='submit']:hover{
     nav{
         display: none;
         }
+    }
 /* 2xl */
 @media (max-width:998px){
     .nav2{
@@ -1214,6 +1215,7 @@ input[type='submit']:hover{
     .agrément h3 {
         font-size: 10px !important;
 }
+}
 @media (max-width:395px){
     .hero-text{
         
@@ -1237,6 +1239,7 @@ input[type='submit']:hover{
 @media (max-width:352px){
     .agrément h3 {
         font-size: 8px !important;
+}
 }
 @media (max-width:380px){
     .img-format img {
@@ -1277,7 +1280,7 @@ input[type='submit']:hover{
  
     }
     
-    
+}   
 
 
 @media (max-width:331px){
