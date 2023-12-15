@@ -720,7 +720,7 @@ transition: 0.4s cubic-bezier(.17,.84,.44,1);
 display: block;
 position: fixed;
 height: 100%;
-max-width: 50%;
+max-width: 25%;
 width: 100%;
 left: 0;
 top: 0;
