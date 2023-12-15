@@ -765,6 +765,13 @@ to{
         display: none;
         }
 /* 2xl */
+@media (max-width:998px){
+    .nav2{
+        width: 100%;
+        max-width: 50%;
+        
+    }
+}
 @media (max-width:909px){
     .hero h1 {
         font-size: 2.5rem;
@@ -798,7 +805,7 @@ to{
         top:  1px;
       }
 
-
+    }
 @media (max-width:742){
     .nav2{
         width: 100%;
