@@ -88,8 +88,8 @@ function NavcrossBar(){
         bar.classList.toggle("active");
         nav.classList.toggle("active");
         transparent.classList.toggle("active");
+        html.classList.toggle("active");
        
-        event.stopPropagation;
     })
 }
 NavcrossBar()
@@ -99,13 +99,13 @@ function close(){
     const nav = document.querySelector(".nav2");
     const transparent = document.querySelector(".transparent");
     const bar = document.querySelector(".menu");
- 
 const atout = document.querySelectorAll("#close");
 atout.forEach(function(lien){
     lien.addEventListener("click",function(){
         bar.classList.toggle("active");
         nav.classList.toggle("active");
         transparent.classList.toggle("active");
+        
      })
 })
 
@@ -142,13 +142,14 @@ function out(){
     const transparent = document.querySelector(".transparent");
     const nav = document.querySelector(".nav2");
     const bar = document.querySelector(".menu");
+    const html = document.querySelector("html");
   
     transparent.addEventListener('click', function(){
         console.log('click');
         bar.classList.toggle("active");
         nav.classList.toggle("active");
         transparent.classList.toggle("active");
-       
+        html.classList.toggle("active");
     })
     
     };
