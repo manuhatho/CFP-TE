@@ -360,10 +360,10 @@ header nav ul li a{
 
 #inspForm.active{
     opacity: 1 !important;
-    animation: fade 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+   
     transform: translateY(0) !important;
     z-index: 99;
-    transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     
 }
 #inspForm.active2{
@@ -385,10 +385,10 @@ header nav ul li a{
     top: 0;
     right: 0;
     left: 0;
-    /* scale: 0.8; */
+  transform: scale(0);
     opacity:0;
-    z-index: -1;
-    transition:  0.7s cubic-bezier(.17,.84,.44,1) !important;
+    z-index: 99;
+    transition:  0.3s cubic-bezier(.17,.84,.44,1) !important;
     box-shadow: 1px 1px 5px 5px #ffffff2f;
     transform: translateY(1000px) !important;
     

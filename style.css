@@ -964,7 +964,7 @@ form.active{
     opacity: 1 !important;
     transform: translateY(0) !important;
     z-index: 99;
-    transition: 0.6s cubic-bezier(1,0,0,1) !important; 
+    transition: 0.3s cubic-bezier(1,0,0,1) !important; 
 }
 form.active2{
     opacity: 0 !important;
@@ -984,10 +984,10 @@ form{
     top: 0;
     right: 0;
     left: 0;
-    /* scale: 0.8; */
+    z-index: 99;
+    transform: scale(0);
     opacity:0;
-    z-index: -1;
-    transition:  0.6s cubic-bezier(1,0,0,1) !important; 
+    transition:  0.3s cubic-bezier(1,0,0,1) !important; 
     box-shadow: 1px 1px 5px 5px #ffffff2f;
     overflow-y: auto !important;
     transform:  translateY(1000px) !important;
