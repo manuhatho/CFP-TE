@@ -78,7 +78,9 @@ function upOut(){
 }
 upOut();
 
-function crossBar(){
+function NavcrossBar(){
+    const html = document.querySelector("html");
+    console.log(html);
     const nav = document.querySelector(".nav2");
     const transparent = document.querySelector(".transparent");
     const bar = document.querySelector(".menu");
@@ -86,9 +88,11 @@ function crossBar(){
         bar.classList.toggle("active");
         nav.classList.toggle("active");
         transparent.classList.toggle("active");
+        html.classList.toggle("active");
+        event.stopPropagation;
     })
 }
-crossBar()
+NavcrossBar()
 
 
 function close(){
