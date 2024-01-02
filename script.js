@@ -88,7 +88,7 @@ function NavcrossBar(){
         bar.classList.toggle("active");
         nav.classList.toggle("active");
         transparent.classList.toggle("active");
-        html.classList.toggle("active");
+       
         event.stopPropagation;
     })
 }
