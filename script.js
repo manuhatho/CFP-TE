@@ -156,4 +156,15 @@ function out(){
 
 out();
 
+function linkStopScroll (){
+    const link = document.querySelectorAll("#close");
+    const html = document.querySelector("html");
+    link.forEach(function(index){
+        index.addEventListener("click",()=>{
+            html.classList.toggle("active");
+        })
+    })
+  
+}
 
+linkStopScroll();
